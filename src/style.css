@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+    
     margin: auto;
     margin-top: 70px;
     display: flex;
@@ -21,6 +22,8 @@ body {
     width: 50%;
 
     border-radius: 10px;
+
+    overflow:hidden;
 }
 
 .info-bottom {
@@ -105,4 +108,40 @@ body {
 
 .info-buttons .info-linkedin:hover {
     background-color: rgb(92, 92, 143);
+}
+
+.about {
+    padding: 20px;
+}
+
+.about h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.about p {
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.interests {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.interests h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.interests p {
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 20px;
 }
