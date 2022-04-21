@@ -9,6 +9,11 @@ import "./style.css"
 
 export default function App() {
     return (
-        <h1>MyApp</h1>
+        <div className="container">
+            <Info/>
+            <About/>
+            <Interests/>
+            <Footer/>
+        </div>
     )
 }
